@@ -27,5 +27,16 @@ public class Main {
         double d = 10.5;
         char ch = 'a';
         System.out.println(ch);
+
+        //Task 1: Different ways to convert character to int
+
+        int z = x + y;
+        //+ -> operator
+        //x,y -> operands
+
+        //Increment & Decrement Operator
+        int m = 5;
+        int n2 = m++;
+        System.out.println("M: "+m+ " " + "N2: "+n2);
     }
 }
