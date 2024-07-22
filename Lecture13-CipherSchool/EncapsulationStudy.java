@@ -1,7 +1,7 @@
 class Demo{
     private int a = 5;
     private int b = 25;
-    private int c = 45;
+    private int c = 45;//read only
     private int d = 50;
 
 
@@ -29,23 +29,23 @@ class Demo{
         this.b = b;
     }
 
-    public void setC(int c){
-        this.c = c;
-    }
+    // public void setC(int c){
+    //     this.c = c;
+    // }
 
-    public int getC(){
+    public int getC(){//only getter of C -> READ ONLY
         System.out.println("Value of C read");
         return this.c;
     }
 
-    public void setD(int d){
+    public void setD(int d){//setter only -> write only
         this.d = d;
     }
 
-    public int getD(){
-        System.out.println("Value of D read");
-        return this.d;
-    }
+    // public int getD(){
+    //     System.out.println("Value of D read");
+    //     return this.d;
+    // }
 }
 
 
