@@ -11,10 +11,10 @@ public class PrimitiveDT {
         byte b = 10;
         System.out.println("B is: "+b);
         
-        byte b2 = (byte)110;
+        byte b2 = (byte)110;//Explicit type casting
         System.out.println("B2 is: "+b2);
 
-        int i = b;
+        int i = b;//Implicit type casting or widening 
         System.out.println("I is: "+i);
     }
 }
